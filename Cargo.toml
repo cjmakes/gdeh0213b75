@@ -1,0 +1,16 @@
+[package]
+name = "gdeh0213b72"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-graphics-core = "0.3.3"
+embedded-graphics = "0.7.1"
+embedded-hal = "0.2.7"
+
+[dev-dependencies]
+rppal = {version = "0.13.1", features = ["hal"]}
+tracing = "0.1.33"
+tracing-subscriber = "0.3.11"
